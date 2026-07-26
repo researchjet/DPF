@@ -3,20 +3,19 @@ Upon acceptance, we will release the full DPF implementation and training code.
 This repository contains the experimental notebooks used in the evaluation of *Dynamic Probabilistic Fusion (DPF)* on the MVSA datasets.
 For readers who wish to understand the behavior, design rationale, and robustness of DPF, we recommend the following reading order.
 
-#### Core Experiments (Recommended) ★
-Experiment.ipynb
-#### Design Variants and Ablation Analysis (Recommended) ★
-Ablation.ipynb
+#### Experiments and Ablation Analysis (Recommended) ★
+04 Experiment
 
 #### DPF Dataset-Specific Runs
 1. DPF-MVSA-single.ipynb
 2. DPF-MVSA-multiple.ipynb
-
+3. DPF CH-SIMS.ipynb
 #### Neural Network Baselines
 1. NN_Base_DL1-DL4_Multiple-NN.ipynb
 2. NN_Base_DL1-DL4_single-NN.ipynb
 3. NN_Base_DL5-DL6_multiple-TinyCLIP-MobileNet.ipynb
 4. NN_Base_DL5-DL6_single-TinyCLIP-MobileNet.ipynb
+5. 06 CH-SIMS D1-D2.ipynb
 
 Due to the stochastic nature of neural training, minor run-to-run variation may occur.
 These notebooks are included for completeness and transparency.
